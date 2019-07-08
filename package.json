@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "DISABLE_SERVERLESS=true NODE_ENV=production next start",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md,html}\"",
     "lint": "eslint '**/*.js{,x}' '**/*.ts{,x}'",
     "typecheck": "tsc --noEmit",
@@ -23,6 +24,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "snapshot-ui": "build-storybook && percy-storybook --widths=320,1280",
+    "e2e": "DISABLE_SERVERLESS=true yarn build && yarn --cwd packages/e2e jest",
     "deploy": "scripts/deploy-ci.sh",
     "deploy:production": "now --token $NOW_TOKEN --target production",
     "deploy:staging": "now --token $NOW_TOKEN --target staging"

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "nextjs-template",
+  "alias": "nextjs-template.now.sh",
   "public": true,
   "regions": ["all"],
   "builds": [

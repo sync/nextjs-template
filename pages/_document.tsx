@@ -28,13 +28,6 @@ export default class MyDocument extends Document {
               flex-direction: column;
             }
 
-            :root {
-              --navbar: #673AB7;
-              --navbarTextColor: #fff;
-              --navbarHeight: 56px;
-              --toolbarHeight: 44px;
-            }
-
             * {
               box-sizing: border-box !important;
             }

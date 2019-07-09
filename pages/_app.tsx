@@ -1,18 +1,8 @@
-import App, { Container, AppContext } from 'next/app';
+import App, { Container } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
 class MyApp extends App {
-  static async getInitialProps({ Component, ctx }: AppContext) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
-
   render() {
     const { Component, pageProps } = this.props;
 
@@ -25,7 +15,6 @@ class MyApp extends App {
           />
           <title>Next.js Template</title>
         </Head>
-
         <Component {...pageProps} />
       </Container>
     );

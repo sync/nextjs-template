@@ -36,7 +36,7 @@
     "react-dom": "16.9.0"
   },
   "devDependencies": {
-    "@babel/core": "7.5.5",
+    "@babel/core": "7.6.0",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "7.5.5",
     "@percy-io/percy-storybook": "2.1.0",

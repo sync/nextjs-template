@@ -72,7 +72,7 @@
     "next-transpile-modules": "2.3.1",
     "prettier": "1.18.2",
     "typescript": "3.6.3",
-    "webpack": "4.41.0"
+    "webpack": "4.41.2"
   },
   "prettier": {
     "singleQuote": true,

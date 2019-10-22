@@ -6,24 +6,9 @@
     "node": "10.x"
   },
   "scripts": {
-    "start": "yarn --cwd ../../ start"
+    "e2e": "cypress run"
   },
   "devDependencies": {
-    "jest": "24.9.0",
-    "jest-puppeteer": "4.3.0",
-    "puppeteer": "1.20.0"
-  },
-  "jest": {
-    "preset": "jest-puppeteer",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
-    },
-    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+    "cypress": "3.4.1"
   }
 }

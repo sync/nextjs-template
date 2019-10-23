@@ -34,8 +34,8 @@
   "dependencies": {
     "isomorphic-fetch": "2.2.1",
     "next": "9.0.6",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
   },
   "devDependencies": {
     "@babel/core": "7.6.4",

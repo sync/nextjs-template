@@ -74,7 +74,7 @@
     "next-offline": "4.0.5",
     "next-transpile-modules": "2.3.1",
     "prettier": "1.18.2",
-    "start-server-and-test": "1.10.4",
+    "start-server-and-test": "1.10.6",
     "typescript": "3.6.4",
     "webpack": "4.41.2"
   },

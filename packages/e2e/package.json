@@ -9,6 +9,6 @@
     "e2e": "cypress run"
   },
   "devDependencies": {
-    "cypress": "3.8.1"
+    "cypress": "4.9.0"
   }
 }
